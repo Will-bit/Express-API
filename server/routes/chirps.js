@@ -2,7 +2,7 @@ const express = require('express');
 const store = require("../chirpStore");
 //const chirpsStore = require('../chirpstore');
 
-let router = express.Router();
+let router = express.Router(); 
 
 
 router.get("/:id", (req, res)=>{
